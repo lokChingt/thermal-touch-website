@@ -131,7 +131,7 @@
 /* pricing.html -- main styling */
 .compare-table-container {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
 }
 
@@ -147,6 +147,9 @@
 .feature, 
 .data {
     text-align: center;
+    p {
+        font-size: 1.5rem;
+    }
 }
 
 /* end of pricing.html -- main styling */
