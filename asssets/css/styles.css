@@ -1,0 +1,156 @@
+/* mobile first */
+
+/* header styling*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+#logo {
+    width: 20vw;
+    
+}
+
+/* Show nav links when the menu is active */
+.navbar {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 20vw;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.menu-btn {
+    font-size: 2rem;
+    width: auto;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.no_scroll {
+    overflow-y: hidden;
+}
+/* end of header styling */
+
+
+/* index.html -- main styling */
+.wide-container {
+    background-image: url("https://picsum.photos/seed/picsum/500/200");
+    background-size: cover;
+    background-position: center;
+    width: 94vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+    margin: 0 5vw;
+}
+
+.explore-btn {
+    background-color: #b55b2b;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: medium;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.column-img {
+    width: 45vw;
+    height: 30vw;
+}
+
+.two-columns-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.big-img {
+    width: 94vw;
+    height: 700px;
+    display: flex;
+    margin: auto;
+}
+
+.review {
+    background-color: rgb(195, 195, 195);
+    text-align: center;
+    padding: 2vw;
+}
+
+.grid img {
+    width: 90%;
+}
+
+/* end of index.html -- main styling */
+
+
+/* pricing.html -- main styling */
+.compare-table-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #2e72d9;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: none;
+}
+
+.feature, 
+.data {
+    text-align: center;
+}
+
+/* end of pricing.html -- main styling */
+
+
+footer {
+    padding: 2vw;
+    margin: 5vw 0 0 0;
+    background-color: #fae9d0;
+    text-align: center;
+}
