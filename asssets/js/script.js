@@ -6,7 +6,7 @@ function toggleMenu() {
 
     if (nav.classList.contains("active")) {
         btn.innerHTML = "✕";
-        nav.style.height = "calc(100vh - 20vw)"
+        nav.style.height = "calc(100vh - 20vh)"
         document.body.style.overflow = "hidden"
     } else {
         btn.innerHTML = "☰";
