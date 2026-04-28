@@ -2,6 +2,11 @@ h1 {
     text-align: center;
 }
 
+.main-content a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 /* header styling*/
 .header-container {
     display: flex;
@@ -67,7 +72,7 @@ h1 {
     background-size: cover;
     background-position: center;
     width: 94vw;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +92,7 @@ h1 {
     cursor: pointer;
     padding: 12px 24px;
     font-size: medium;
+    margin: 4px;
 }
 
 /* Slideshow container */
@@ -193,6 +199,28 @@ h1 {
     width: 90%;
 }
 
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2vw;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+.option-container {
+    display: flex;
+}
+
+.option {
+    margin: 2vw;
+    text-align: center;
+}
+
 /* end of index.html -- main styling */
 
 
@@ -216,7 +244,7 @@ h1 {
 .data {
     text-align: center;
     p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -239,6 +267,10 @@ footer {
 
     .review-col {
         justify-content: space-between;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
