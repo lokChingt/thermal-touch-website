@@ -75,13 +75,11 @@ h1 {
     background-image: url("https://picsum.photos/seed/picsum/500/200");
     background-size: cover;
     background-position: center;
-    width: 94vw;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2vw;
-    margin: auto;
 }
 
 .center {
